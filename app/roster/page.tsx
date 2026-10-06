@@ -70,71 +70,9 @@ export default function RosterPage() {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section className="py-24 bg-card">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <p className="text-primary font-medium uppercase tracking-wider mb-4">Visual Gallery</p>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-balance">Behind the Scenes</h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Moments from our work with artists across the industry.
-            </p>
-          </div>
-
-          {/* Mosaic Gallery */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
-            <div className="col-span-2 row-span-2">
-              <div className="aspect-square bg-card rounded-xl overflow-hidden border border-border">
-                <img
-                  src="/music-industry-executive-meeting-with-hip-hop-arti.jpg"
-                  alt="Industry meeting"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-            <div className="aspect-square bg-card rounded-xl overflow-hidden border border-border">
-              <img
-                src="/professional-music-interview-setup-with-microphone.jpg"
-                alt="Interview setup"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="aspect-square bg-card rounded-xl overflow-hidden border border-border">
-              <img
-                src="/hip-hop-artist-performing-on-stage-with-gold-light.jpg"
-                alt="Artist performance"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="aspect-square bg-card rounded-xl overflow-hidden border border-border">
-              <img
-                src="/music-video-production-set-with-professional-camer.jpg"
-                alt="Video production"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="aspect-square bg-card rounded-xl overflow-hidden border border-border">
-              <img
-                src="/radio-station-interview-with-hip-hop-artist.jpg"
-                alt="Radio interview"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="col-span-2">
-              <div className="aspect-[2/1] bg-card rounded-xl overflow-hidden border border-border">
-                <img
-                  src="/music-industry-conference-panel-discussion-enterta.jpg"
-                  alt="Industry conference"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <CTABanner />
       <Footer />
     </main>
   )
 }
+

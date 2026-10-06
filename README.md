@@ -44,7 +44,7 @@ Built in accordance with the **Site Empire OS** and **Design Taste** standards:
 │   ├── about/             # Founder biography (Sid Mali), career timeline & photo gallery
 │   ├── contact/           # High-conversion inquiry form with service selectors
 │   ├── faq/               # Accordion-driven FAQ covering campaigns & requirements
-│   ├── roster/            # Past clients directory & behind-the-scenes visual mosaic
+│   ├── roster/            # Past clients & featured artists directory
 │   ├── services/          # Detailed service breakdowns & platform catalogs
 │   ├── globals.css        # Tailwind v4 configuration and design tokens
 │   ├── layout.tsx         # Root layout with dark mode, metadata & analytics
