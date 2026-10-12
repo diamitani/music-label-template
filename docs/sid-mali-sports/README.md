@@ -5,7 +5,7 @@ Source-only intake from the two sports-content emails received October 12, 2026.
 ## Files
 
 - `content.json`: brand copy transcribed from the three supplied brand slides, plus an inventory of all 24 images (dimensions, byte sizes and SHA-256 hashes).
-- `web-images.zip`: 24 web-sized JPEG copies, with EXIF/GPS metadata removed and orientation corrected. Each filename is unique across the two batches.
+- [web-images.zip](https://drive.google.com/file/d/15XIOc86I38PHhalz_dgsbxgfJ1pw-Oxl/view?usp=drivesdk&authuser=gptpat123%40gmail.com): 24 web-sized JPEG copies, with EXIF/GPS metadata removed and orientation corrected. Stored owner-only in Drive; each filename is unique across the two batches.
 - Original full-resolution archives are owner-only in Google Drive, linked below. The second archive was recovered from the expiring Mail Drop link.
 
 Extract the web copies into a local source-assets folder (not automatically served by the site):
@@ -37,4 +37,4 @@ The emails provide photos and these brand slides, but no named athlete roster, a
 
 The two email bodies contain only a phone signature. Private email addresses, headers, message identifiers and the expiring download token are intentionally not copied into this public repository.
 
-The repository is public. Web-sized copies and transcribed source copy are publicly readable here; full-resolution originals remain private in Drive.
+The repository is public. Transcribed source copy and asset inventory are publicly readable here; all photographs and archives remain private in Drive.
