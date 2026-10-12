@@ -1,0 +1,639 @@
+{
+  "schemaVersion": 1,
+  "brand": {
+    "name": "Sid Mali Sports",
+    "tagline": "Connecting African Athletes, American Opportunities and Global Brands",
+    "locationLine": "Based in New York. Rooted in South Africa. Connected across Africa and the United States."
+  },
+  "about": {
+    "headline": "South African-born. New York-based. Connecting talent with opportunity.",
+    "paragraphs": [
+      "Sid Mali is a sports manager, talent connector and cultural bridge between Africa and the United States.",
+      "With experience across talent, media, entertainment, branding, bookings and public relations, Sid brings a relationship-driven approach to sports management.",
+      "Through Sid Mali Sports, he connects athletes, brands, scouts, colleges, events and trusted partners across sporting ecosystems."
+    ],
+    "closing": "Let's connect talent, opportunity, culture and commercial value."
+  },
+  "closingLine": "We look forward to building meaningful partnerships across sport, culture and opportunity.",
+  "athleteRoster": [],
+  "servicePackages": [],
+  "links": [],
+  "sourceNotes": {
+    "receivedDate": "2026-10-12",
+    "batches": [
+      {
+        "id": 1,
+        "subject": "Sports photos with athletes and at soccer World Cup",
+        "sentAt": "2026-10-12T19:31:34-04:00",
+        "attachments": 11
+      },
+      {
+        "id": 2,
+        "subject": "Pics & info 2",
+        "sentAt": "2026-10-12T19:36:01-04:00",
+        "attachments": 13,
+        "archiveOrigin": "Recovered full-resolution originals from Mail Drop"
+      }
+    ],
+    "copyOrigin": "Transcribed from batch 2 image8.jpeg, image9.jpeg and image10.jpeg; email bodies contain no substantive text.",
+    "status": "Source material for review, not published website copy",
+    "missing": [
+      "Athlete names and roster details",
+      "Approved per-photo captions",
+      "Named service packages, deliverables and pricing",
+      "Contact and booking links",
+      "Image rights/credits confirmation"
+    ]
+  },
+  "assets": [
+    {
+      "id": "batch-1-image-00",
+      "archive": "sports-photos.zip",
+      "filename": "image0.jpeg",
+      "bytes": 1033303,
+      "sha256": "5c50c3a814a63d882e1c09194e2dfca98dc581ad0cee8eff7a2f27384e16c0a5",
+      "width": 2448,
+      "height": 2448,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-1-image-00.jpg",
+        "width": 1600,
+        "height": 1600,
+        "bytes": 390644,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-1-image-01",
+      "archive": "sports-photos.zip",
+      "filename": "image1.jpeg",
+      "bytes": 3126250,
+      "sha256": "8a61f81d085ed068877688532def3806a1c9db25e7f094edf6157d30bfac9cf7",
+      "width": 4032,
+      "height": 3024,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-1-image-01.jpg",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 323777,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-1-image-02",
+      "archive": "sports-photos.zip",
+      "filename": "image2.jpeg",
+      "bytes": 371046,
+      "sha256": "d797273e49be82d7198676f7f458f1be500c4353ecdfb7ffbd83462dd5cf9764",
+      "width": 2128,
+      "height": 1416,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-1-image-02.jpg",
+        "width": 1600,
+        "height": 1065,
+        "bytes": 259897,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-1-image-03",
+      "archive": "sports-photos.zip",
+      "filename": "image3.jpeg",
+      "bytes": 154537,
+      "sha256": "9ddc3199492fc0006ffd9ac39c6950097d27761d34a0e4946cd132e9f3f54b1d",
+      "width": 768,
+      "height": 960,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-1-image-03.jpg",
+        "width": 768,
+        "height": 960,
+        "bytes": 107844,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-1-image-04",
+      "archive": "sports-photos.zip",
+      "filename": "image4.jpeg",
+      "bytes": 3186303,
+      "sha256": "879024ee27804b5779768d69330781fda79cdc4d3aa331569ccffc84262f5b02",
+      "width": 4032,
+      "height": 3024,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-1-image-04.jpg",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 456481,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-1-image-05",
+      "archive": "sports-photos.zip",
+      "filename": "image5.jpeg",
+      "bytes": 770746,
+      "sha256": "4593d721a60fc8e4b6e20f988444c8b60de637920637c8fd13059fb43b8e7836",
+      "width": 1284,
+      "height": 2282,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-1-image-05.jpg",
+        "width": 900,
+        "height": 1600,
+        "bytes": 300955,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-1-image-06",
+      "archive": "sports-photos.zip",
+      "filename": "image6.jpeg",
+      "bytes": 203363,
+      "sha256": "d3f6472d2a6fd6fe4133dd5b68b389b508dd922ed4482e1bd61a0a0480f854d1",
+      "width": 1284,
+      "height": 964,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-1-image-06.jpg",
+        "width": 1284,
+        "height": 964,
+        "bytes": 129235,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-1-image-07",
+      "archive": "sports-photos.zip",
+      "filename": "image7.jpeg",
+      "bytes": 427405,
+      "sha256": "b6d22b0806bf753c00224d80ff38c1027c28cc6d83728db43fdce2ff9987a7d0",
+      "width": 1206,
+      "height": 1715,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-1-image-07.jpg",
+        "width": 1125,
+        "height": 1600,
+        "bytes": 322624,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-1-image-08",
+      "archive": "sports-photos.zip",
+      "filename": "image8.jpeg",
+      "bytes": 683149,
+      "sha256": "1de920e83a3a5ff369801bccd3602a1fa7903fbdb6964dbad82a8a78c9fe21ed",
+      "width": 1206,
+      "height": 2144,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-1-image-08.jpg",
+        "width": 900,
+        "height": 1600,
+        "bytes": 281835,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-1-image-09",
+      "archive": "sports-photos.zip",
+      "filename": "image9.jpeg",
+      "bytes": 3492123,
+      "sha256": "9a07dbbf85732875f87fcf5e31a93822809a611d489ecc81c4a5fa0b92c37399",
+      "width": 4284,
+      "height": 5712,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-1-image-09.jpg",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 332885,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-1-image-10",
+      "archive": "sports-photos.zip",
+      "filename": "image10.jpeg",
+      "bytes": 4151184,
+      "sha256": "1f42cb1147e40464c134550cf83bf8929f47e6930ed862658dbe094a23c0f460",
+      "width": 5712,
+      "height": 4284,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-1-image-10.jpg",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 385515,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-15",
+      "archive": "pics-and-info.zip",
+      "filename": "image15.jpeg",
+      "bytes": 1659242,
+      "sha256": "0f4f9f2d838d02b984639cc29378829ea903ae9b074562d2980187386326e29e",
+      "width": 2066,
+      "height": 3672,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-15.jpg",
+        "width": 900,
+        "height": 1600,
+        "bytes": 292592,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-12",
+      "archive": "pics-and-info.zip",
+      "filename": "image12.jpeg",
+      "bytes": 611889,
+      "sha256": "3782bd2fdb61f7af90b7ea6e8ad7119dad9f7cf8420a0c2a7ea0a7d2992fdf2a",
+      "width": 1206,
+      "height": 2144,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-12.jpg",
+        "width": 900,
+        "height": 1600,
+        "bytes": 246858,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-03",
+      "archive": "pics-and-info.zip",
+      "filename": "image3.jpeg",
+      "bytes": 877373,
+      "sha256": "1db09275e157e66779fe0fa115788ab72950d5e5be5d9b30b03e846811c21bd3",
+      "width": 2773,
+      "height": 4160,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-03.jpg",
+        "width": 1067,
+        "height": 1600,
+        "bytes": 264425,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-04",
+      "archive": "pics-and-info.zip",
+      "filename": "image4.jpeg",
+      "bytes": 4163916,
+      "sha256": "41d0b06e4ac1ceecd30ed5c7678c186a9ea08862390579da92b05b7d334f8e10",
+      "width": 4284,
+      "height": 5712,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-04.jpg",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 448024,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-05",
+      "archive": "pics-and-info.zip",
+      "filename": "image5.jpeg",
+      "bytes": 626497,
+      "sha256": "3357841dcc776d007ec7bbff91fb8920658c5e2578e7073d28efa4aac092f566",
+      "width": 1206,
+      "height": 2144,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-05.jpg",
+        "width": 900,
+        "height": 1600,
+        "bytes": 242402,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-13",
+      "archive": "pics-and-info.zip",
+      "filename": "image13.jpeg",
+      "bytes": 4858271,
+      "sha256": "d207461c437e1c88a5053976b82dde178f57b33b4bf188ccacf3b7710e55f036",
+      "width": 4284,
+      "height": 5712,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-13.jpg",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 476576,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-06",
+      "archive": "pics-and-info.zip",
+      "filename": "image6.jpeg",
+      "bytes": 3894677,
+      "sha256": "e799bf8b2c0165425abebb29144803379ea96e2ef2e19b1a7eb530b1985ee7ce",
+      "width": 4284,
+      "height": 5712,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-06.jpg",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 389105,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-10",
+      "archive": "pics-and-info.zip",
+      "filename": "image10.jpeg",
+      "bytes": 245002,
+      "sha256": "554d68d67a9e4bd8952305f4858638f35051bb5cd649243db7dfeb71ce29299e",
+      "width": 1206,
+      "height": 687,
+      "caption": null,
+      "people": [],
+      "role": "closing-brand-slide",
+      "needsReview": [
+        "Source-supplied brand artwork; claims are not independently verified"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-10.jpg",
+        "width": 1206,
+        "height": 687,
+        "bytes": 215359,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-08",
+      "archive": "pics-and-info.zip",
+      "filename": "image8.jpeg",
+      "bytes": 192225,
+      "sha256": "d8cdfd05d81837ba5d5703c6047076c4684581062279cff2e139d35c4f152a07",
+      "width": 1206,
+      "height": 660,
+      "caption": null,
+      "people": [],
+      "role": "about-brand-slide",
+      "needsReview": [
+        "Source-supplied brand artwork; claims are not independently verified"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-08.jpg",
+        "width": 1206,
+        "height": 660,
+        "bytes": 166001,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-09",
+      "archive": "pics-and-info.zip",
+      "filename": "image9.jpeg",
+      "bytes": 185394,
+      "sha256": "6daae2d25c4d7e5753f3a94924250929b4e708012dfafe53d41cbf3a3e9890b1",
+      "width": 1206,
+      "height": 675,
+      "caption": null,
+      "people": [],
+      "role": "hero-brand-slide",
+      "needsReview": [
+        "Source-supplied brand artwork; claims are not independently verified"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-09.jpg",
+        "width": 1206,
+        "height": 675,
+        "bytes": 162850,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-07",
+      "archive": "pics-and-info.zip",
+      "filename": "image7.jpeg",
+      "bytes": 3033042,
+      "sha256": "4dd359d99521a0d1d09616e3fc37dadf41729407c7e83d208922add77b3c1733",
+      "width": 4284,
+      "height": 5712,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-07.jpg",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 284726,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-14",
+      "archive": "pics-and-info.zip",
+      "filename": "image14.jpeg",
+      "bytes": 1689431,
+      "sha256": "f8426fb2156fc3f498e190c3a08892c91c8bfa25cda744dcb22c2962680267a2",
+      "width": 2066,
+      "height": 3672,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-14.jpg",
+        "width": 900,
+        "height": 1600,
+        "bytes": 296299,
+        "metadataStripped": true
+      }
+    },
+    {
+      "id": "batch-2-image-11",
+      "archive": "pics-and-info.zip",
+      "filename": "image11.jpeg",
+      "bytes": 100030,
+      "sha256": "6d721ae098deb01435561e76f1b151084821b5131f7af9e4137eea592f148b0f",
+      "width": 711,
+      "height": 684,
+      "caption": null,
+      "people": [],
+      "role": "photo",
+      "needsReview": [
+        "Confirm names and approved caption before use",
+        "Photo does not establish a client or representation relationship"
+      ],
+      "webImage": {
+        "archive": "web-images.zip",
+        "filename": "batch-2-image-11.jpg",
+        "width": 711,
+        "height": 684,
+        "bytes": 87299,
+        "metadataStripped": true
+      }
+    }
+  ],
+  "privateOriginals": [
+    {
+      "archive": "sports-photos.zip",
+      "url": "https://drive.google.com/file/d/1M2ZPodTumwX7rmGPBthx0O9O5pIrRz2y/view?usp=drivesdk&authuser=gptpat123%40gmail.com",
+      "access": "Owner-only Google Drive; not public"
+    },
+    {
+      "archive": "pics-and-info.zip",
+      "url": "https://drive.google.com/file/d/1TViHX8uYyrfqwgxQ24UwRd09gxEKdB6y/view?usp=drivesdk&authuser=gptpat123%40gmail.com",
+      "access": "Owner-only Google Drive; not public"
+    }
+  ],
+  "webImagesDownload": {
+    "url": "https://drive.google.com/file/d/15XIOc86I38PHhalz_dgsbxgfJ1pw-Oxl/view?usp=drivesdk&authuser=gptpat123%40gmail.com",
+    "access": "Owner-only Google Drive"
+  }
+}
