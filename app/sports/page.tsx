@@ -12,20 +12,10 @@ export const metadata: Metadata = {
 
 const areas = ["Sports management", "Talent connections", "Brand partnerships", "Cross-cultural partnerships"]
 
-const gallery = [
-  { file: "15-court-seat", alt: "Courtside at an arena game" },
-  { file: "16-nba-interview", alt: "On the floor at a live sports broadcast" },
-  { file: "17-arena-courtside", alt: "Seated courtside at an arena" },
-  { file: "18-athlete-1", alt: "Meeting a player at a sports event" },
-  { file: "19-athlete-2", alt: "With a former player at an event" },
-  { file: "20-athlete-3", alt: "With a player at a sports event" },
-  { file: "21-arena-friends", alt: "Friends in the arena seats" },
-  { file: "22-arena-seats", alt: "Seated on the arena floor" },
-  { file: "23-world-cup-1", alt: "In the stands at a FIFA World Cup 2026 match" },
-  { file: "24-world-cup-2", alt: "A group at a stadium event" },
-  { file: "25-event-court", alt: "On the court at a sports event" },
-  { file: "26-studio-set", alt: "On set at a media studio" },
-]
+const gallery = Array.from({ length: 24 }, (_, i) => ({
+  file: `${i + 1}-all-${String(i + 1).padStart(2, "0")}`,
+  alt: `We Up Sports photo ${i + 1}`,
+}))
 
 export default function SportsPage() {
   return (
