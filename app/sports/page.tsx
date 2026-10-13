@@ -12,10 +12,12 @@ export const metadata: Metadata = {
 
 const areas = ["Sports management", "Talent connections", "Brand partnerships", "Cross-cultural partnerships"]
 
-const gallery = Array.from({ length: 24 }, (_, i) => ({
-  file: `${i + 1}-all-${String(i + 1).padStart(2, "0")}`,
-  alt: `We Up Sports photo ${i + 1}`,
-}))
+const gallery = Array.from({ length: 24 }, (_, i) => i + 1)
+  .filter((photoNumber) => ![17, 18, 19].includes(photoNumber))
+  .map((photoNumber) => ({
+    file: `${photoNumber}-all-${String(photoNumber).padStart(2, "0")}`,
+    alt: `We Up Sports photo ${photoNumber}`,
+  }))
 
 export default function SportsPage() {
   return (
