@@ -10,7 +10,7 @@ const navLinks = [
   { href: "/services", label: "Artist Services" },
   { href: "/roster", label: "Featured Clients" },
   { href: "/about", label: "About Sid Mali" },
-  { href: "/sid-mali-sports", label: "Sid Mali Sports" },
+  { href: "/#sports", label: "Sports" },
   { href: "/contact", label: "Contact" },
   { href: "/faq", label: "FAQ" },
 ]
