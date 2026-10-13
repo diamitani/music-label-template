@@ -26,18 +26,18 @@ export default function HomePage() {
         <div className="container mx-auto px-6">
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div>
-              <p className="mb-4 font-medium uppercase tracking-wider text-primary">{source.brand.name}</p>
+              <p className="mb-4 font-medium uppercase tracking-wider text-primary">We Up Sports</p>
               <h2 id="sports-heading" className="text-3xl font-bold leading-tight text-balance md:text-5xl">{source.brand.tagline}</h2>
               <p className="mt-6 text-lg leading-relaxed text-muted-foreground">{source.brand.locationLine}</p>
               <h3 className="mt-8 text-xl font-semibold">{source.about.headline}</h3>
               <div className="mt-5 space-y-4 leading-relaxed text-muted-foreground">
-                {source.about.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                {source.about.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph.replace("Through Sid Mali Sports,", "Through We Up Sports,")}</p>)}
               </div>
             </div>
             <img src="/1-sid-sports-batch-2-image-11.jpg" alt="Portrait of Sid Mali" width="711" height="684" loading="lazy" className="mx-auto w-full max-w-lg rounded-xl border border-border" />
           </div>
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {["Sports management", "Talent connections", "Brand relationships", "Cross-cultural partnerships"].map((area) => (
+            {["Sports management", "Talent connections", "Brand partnerships", "Cross-cultural partnerships"].map((area) => (
               <div key={area} className="rounded-xl border border-border bg-background p-6"><h3 className="text-lg font-semibold">{area}</h3></div>
             ))}
           </div>
