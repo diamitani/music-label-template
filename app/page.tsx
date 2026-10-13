@@ -6,6 +6,7 @@ import { PlacementsSection } from "@/components/placements-section"
 import { ClientsCarousel } from "@/components/clients-carousel"
 import { CTABanner } from "@/components/cta-banner"
 
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-background">
