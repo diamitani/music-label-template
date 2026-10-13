@@ -10,6 +10,7 @@ const navLinks = [
   { href: "/services", label: "Artist Services" },
   { href: "/roster", label: "Featured Clients" },
   { href: "/about", label: "About Sid Mali" },
+  { href: "/sid-mali-sports", label: "Sid Mali Sports" },
   { href: "/contact", label: "Contact" },
   { href: "/faq", label: "FAQ" },
 ]
@@ -27,7 +28,7 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-5">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
