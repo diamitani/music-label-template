@@ -100,7 +100,7 @@ export default function AboutPage() {
                 </span>
                 <span className="flex items-center gap-2">
                   <GraduationCap size={16} className="text-primary" />
-                  University of Iowa
+                  University of Iowa · Boston University
                 </span>
                 <span className="flex items-center gap-2">
                   <Briefcase size={16} className="text-primary" />
