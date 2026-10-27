@@ -28,6 +28,8 @@ const services = [
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+  const [error, setError] = useState(false)
   const [selectedService, setSelectedService] = useState("")
 
   useEffect(() => {
@@ -37,10 +39,33 @@ export default function ContactPage() {
     }
   }, [])
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    // Form submission would be handled here
-    setSubmitted(true)
+    if (submitting) return
+    setSubmitting(true)
+    setError(false)
+    const data = new FormData(e.currentTarget)
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: data.get("name"),
+          email: data.get("email"),
+          phone: data.get("phone"),
+          artist: data.get("artist"),
+          service: selectedService,
+          message: data.get("message"),
+          botcheck: data.get("botcheck"),
+        }),
+      })
+      if (!res.ok) throw new Error(`status ${res.status}`)
+      setSubmitted(true)
+    } catch {
+      setError(true)
+    } finally {
+      setSubmitting(false)
+    }
   }
 
   return (
@@ -128,10 +153,13 @@ export default function ContactPage() {
                     </div>
                   ) : (
                     <form onSubmit={handleSubmit} className="space-y-6">
+                      {/* Honeypot: invisible to visitors; submissions that fill it are silently dropped */}
+                      <input type="text" name="botcheck" className="hidden" tabIndex={-1} autoComplete="off" aria-hidden="true" />
                       <div className="grid sm:grid-cols-2 gap-6">
                         <div className="space-y-2">
                           <Label htmlFor="name">Name *</Label>
                           <Input
+                            name="name"
                             id="name"
                             placeholder="Your full name"
                             required
@@ -141,6 +169,7 @@ export default function ContactPage() {
                         <div className="space-y-2">
                           <Label htmlFor="email">Email *</Label>
                           <Input
+                            name="email"
                             id="email"
                             type="email"
                             placeholder="your@email.com"
@@ -154,6 +183,7 @@ export default function ContactPage() {
                         <div className="space-y-2">
                           <Label htmlFor="phone">Phone</Label>
                           <Input
+                            name="phone"
                             id="phone"
                             type="tel"
                             placeholder="Your phone number"
@@ -163,6 +193,7 @@ export default function ContactPage() {
                         <div className="space-y-2">
                           <Label htmlFor="artist">Artist Name</Label>
                           <Input
+                            name="artist"
                             id="artist"
                             placeholder="Artist or group name"
                             className="bg-background border-border"
@@ -189,6 +220,7 @@ export default function ContactPage() {
                       <div className="space-y-2">
                         <Label htmlFor="message">Message *</Label>
                         <Textarea
+                          name="message"
                           id="message"
                           placeholder="Tell us about your project, goals, and how we can help..."
                           rows={6}
@@ -197,12 +229,20 @@ export default function ContactPage() {
                         />
                       </div>
 
+                      {error && (
+                        <p className="text-sm text-red-400">
+                          Something went wrong sending your message. Please try again, or email us directly at
+                          sidmali2@gmail.com.
+                        </p>
+                      )}
+
                       <Button
                         type="submit"
                         size="lg"
+                        disabled={submitting}
                         className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
                       >
-                        Send Message
+                        {submitting ? "Sending..." : "Send Message"}
                         <Send className="ml-2 h-4 w-4" />
                       </Button>
                     </form>
