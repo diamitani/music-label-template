@@ -20,6 +20,10 @@ const services = [
   { value: "radio", label: "Radio Promotion" },
   { value: "management", label: "Artist Management" },
   { value: "press", label: "Press & Media" },
+  { value: "sports-athlete", label: "We Up Sports - Athlete Opportunities" },
+  { value: "sports-academy", label: "We Up Sports - Academy or Club Partnership" },
+  { value: "sports-sponsor", label: "We Up Sports - Sponsorship" },
+  { value: "sports-institution", label: "We Up Sports - Institutional Enquiry" },
   { value: "other", label: "Other" },
 ]
 
