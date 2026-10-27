@@ -10,9 +10,8 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Mail, Phone, MapPin, Send, CheckCircle } from "lucide-react"
+import { Mail, MapPin, Send, CheckCircle } from "lucide-react"
 import { useState, useEffect } from "react"
-import { useSearchParams } from "next/navigation"
 
 const services = [
   { value: "video-placement", label: "Music Video Placement" },
@@ -28,16 +27,15 @@ const services = [
 ]
 
 export default function ContactPage() {
-  const searchParams = useSearchParams()
   const [submitted, setSubmitted] = useState(false)
   const [selectedService, setSelectedService] = useState("")
 
   useEffect(() => {
-    const service = searchParams.get("service")
+    const service = new URLSearchParams(window.location.search).get("service")
     if (service) {
       setSelectedService(service)
     }
-  }, [searchParams])
+  }, [])
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -90,22 +88,6 @@ export default function ContactPage() {
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
                         sidmali2@gmail.com
-                      </a>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-card border-border">
-                <CardContent className="p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                      <Phone className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                      <a href="tel:917-449-5219" className="text-muted-foreground hover:text-primary transition-colors">
-                        917-449-5219
                       </a>
                     </div>
                   </div>
